@@ -10,3 +10,4 @@ function cal(arr){
 let list ={ "groceries": 150, "dining out": 100, "transportation": 50, "entertainment": 80 };
 
 console.log(cal(list));
+module.exports = {cal};

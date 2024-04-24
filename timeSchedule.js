@@ -1,6 +1,8 @@
 function timeSchedules(arr){
-  return arr.filter((time) => time >= "12:00");
+    var result = arr.filter(time => time.includes("P", time.length-2))
+    return result
 }
+
 
 
 module.exports = {timeSchedules};
